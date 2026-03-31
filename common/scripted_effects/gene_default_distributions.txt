@@ -3,6 +3,15 @@
 
 set_breast_size_gene_1_effect = {
 	random_list = {
+		900 = {
+			trigger = { is_ek2_fantasy_body_profile_culture_trigger = yes }
+			set_ek2_lore_body_profile_effect = yes
+			set_variable = { name = breast_size_gene_1 value = var:ek2_lore_breast_target }
+			change_variable = {
+				name = breast_size_gene_1
+				add = { fixed_range = { min = -8 max = 8 } }
+			}
+		}
 		1 = { 
 			trigger = {
 				Or = {
@@ -187,6 +196,15 @@ set_breast_size_gene_1_effect = {
 				
 set_breast_size_gene_2_effect = {
 	random_list = {
+		900 = {
+			trigger = { is_ek2_fantasy_body_profile_culture_trigger = yes }
+			set_ek2_lore_body_profile_effect = yes
+			set_variable = { name = breast_size_gene_2 value = var:ek2_lore_breast_target }
+			change_variable = {
+				name = breast_size_gene_2
+				add = { fixed_range = { min = -8 max = 8 } }
+			}
+		}
 		1 = { 
 			trigger = {
 				Or = {
@@ -369,6 +387,35 @@ set_breast_size_gene_2_effect = {
 	}
 }
 			
+set_ek2_lore_body_profile_effect = {
+	if = { limit = { culture = dremora } set_variable = { name = ek2_lore_breast_target value = 52 } set_variable = { name = ek2_lore_butt_target value = 48 } set_variable = { name = ek2_lore_hips_target value = 44 } set_variable = { name = ek2_lore_shoulders_target value = 72 } set_variable = { name = ek2_lore_waist_target value = 40 } }
+	else_if = { limit = { culture = alinor } set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = auridon } set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = balfiera } set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = corelanya } set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = ayleid } set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = mathmeldi } set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = barsaebic } set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = dynari } set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = mountain_orc } set_variable = { name = ek2_lore_breast_target value = 50 } set_variable = { name = ek2_lore_butt_target value = 52 } set_variable = { name = ek2_lore_hips_target value = 50 } set_variable = { name = ek2_lore_shoulders_target value = 68 } set_variable = { name = ek2_lore_waist_target value = 48 } }
+	else_if = { limit = { culture = iron_orc } set_variable = { name = ek2_lore_breast_target value = 50 } set_variable = { name = ek2_lore_butt_target value = 52 } set_variable = { name = ek2_lore_hips_target value = 50 } set_variable = { name = ek2_lore_shoulders_target value = 68 } set_variable = { name = ek2_lore_waist_target value = 48 } }
+	else_if = { limit = { culture = wood_orc } set_variable = { name = ek2_lore_breast_target value = 50 } set_variable = { name = ek2_lore_butt_target value = 52 } set_variable = { name = ek2_lore_hips_target value = 50 } set_variable = { name = ek2_lore_shoulders_target value = 68 } set_variable = { name = ek2_lore_waist_target value = 48 } }
+	else_if = { limit = { culture = malahk_orc } set_variable = { name = ek2_lore_breast_target value = 50 } set_variable = { name = ek2_lore_butt_target value = 52 } set_variable = { name = ek2_lore_hips_target value = 50 } set_variable = { name = ek2_lore_shoulders_target value = 68 } set_variable = { name = ek2_lore_waist_target value = 48 } }
+	else_if = { limit = { culture = dune_orc } set_variable = { name = ek2_lore_breast_target value = 50 } set_variable = { name = ek2_lore_butt_target value = 52 } set_variable = { name = ek2_lore_hips_target value = 50 } set_variable = { name = ek2_lore_shoulders_target value = 68 } set_variable = { name = ek2_lore_waist_target value = 48 } }
+	else_if = { limit = { culture = hleel } set_variable = { name = ek2_lore_breast_target value = 36 } set_variable = { name = ek2_lore_butt_target value = 36 } set_variable = { name = ek2_lore_hips_target value = 38 } set_variable = { name = ek2_lore_shoulders_target value = 54 } set_variable = { name = ek2_lore_waist_target value = 36 } }
+	else_if = { limit = { culture = naga } set_variable = { name = ek2_lore_breast_target value = 38 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 42 } set_variable = { name = ek2_lore_shoulders_target value = 58 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = paatru } set_variable = { name = ek2_lore_breast_target value = 36 } set_variable = { name = ek2_lore_butt_target value = 38 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 37 } }
+	else_if = { limit = { culture = agaceph } set_variable = { name = ek2_lore_breast_target value = 35 } set_variable = { name = ek2_lore_butt_target value = 35 } set_variable = { name = ek2_lore_hips_target value = 37 } set_variable = { name = ek2_lore_shoulders_target value = 52 } set_variable = { name = ek2_lore_waist_target value = 36 } }
+	else_if = { limit = { culture = sarpa } set_variable = { name = ek2_lore_breast_target value = 36 } set_variable = { name = ek2_lore_butt_target value = 38 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 54 } set_variable = { name = ek2_lore_waist_target value = 37 } }
+	else_if = { limit = { culture = ojel } set_variable = { name = ek2_lore_breast_target value = 35 } set_variable = { name = ek2_lore_butt_target value = 36 } set_variable = { name = ek2_lore_hips_target value = 38 } set_variable = { name = ek2_lore_shoulders_target value = 53 } set_variable = { name = ek2_lore_waist_target value = 36 } }
+	else_if = { limit = { culture = hapsleet } set_variable = { name = ek2_lore_breast_target value = 36 } set_variable = { name = ek2_lore_butt_target value = 36 } set_variable = { name = ek2_lore_hips_target value = 38 } set_variable = { name = ek2_lore_shoulders_target value = 54 } set_variable = { name = ek2_lore_waist_target value = 36 } }
+	else_if = { limit = { culture = goblin } set_variable = { name = ek2_lore_breast_target value = 30 } set_variable = { name = ek2_lore_butt_target value = 34 } set_variable = { name = ek2_lore_hips_target value = 34 } set_variable = { name = ek2_lore_shoulders_target value = 44 } set_variable = { name = ek2_lore_waist_target value = 40 } }
+	else_if = { limit = { culture = riekling } set_variable = { name = ek2_lore_breast_target value = 28 } set_variable = { name = ek2_lore_butt_target value = 32 } set_variable = { name = ek2_lore_hips_target value = 32 } set_variable = { name = ek2_lore_shoulders_target value = 42 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = riekr } set_variable = { name = ek2_lore_breast_target value = 28 } set_variable = { name = ek2_lore_butt_target value = 32 } set_variable = { name = ek2_lore_hips_target value = 32 } set_variable = { name = ek2_lore_shoulders_target value = 42 } set_variable = { name = ek2_lore_waist_target value = 38 } }
+	else_if = { limit = { culture = tundrastrider } set_variable = { name = ek2_lore_breast_target value = 55 } set_variable = { name = ek2_lore_butt_target value = 58 } set_variable = { name = ek2_lore_hips_target value = 54 } set_variable = { name = ek2_lore_shoulders_target value = 78 } set_variable = { name = ek2_lore_waist_target value = 52 } }
+	else = { set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 42 } set_variable = { name = ek2_lore_hips_target value = 42 } set_variable = { name = ek2_lore_shoulders_target value = 54 } set_variable = { name = ek2_lore_waist_target value = 42 } }
+}
+
 set_height_gene_1_effect = {
 	random_list = {
 		1 = {

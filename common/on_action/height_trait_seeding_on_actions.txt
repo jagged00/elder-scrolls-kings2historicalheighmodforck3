@@ -2,18 +2,21 @@
 	
 on_seed_height_trait = {
 	trigger = {
-		has_height_trait = no
+		NOT = { is_ek2_fantasy_height_culture_trigger = yes }
+		has_variable = height_genetic
+		has_variable = height_growth
 	}
 	effect = {
 		trigger_event = { 
 			on_action = on_height_trait
-			days = 5
+			days = 1
 		}
 	}
 }
 
 on_height_trait = {
 		trigger = {
+			NOT = { is_ek2_fantasy_height_culture_trigger = yes }
 			has_variable = height_genetic
 			has_variable = height_growth
 		}

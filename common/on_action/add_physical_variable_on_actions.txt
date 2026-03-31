@@ -43,6 +43,7 @@ on_butt_variable = {
 
 on_height_variable = {
 	trigger = { 
+		NOT = { is_ek2_fantasy_height_culture_trigger = yes }
 		Or = {
 			not = { has_variable = height_genetic }
 			not = { has_variable = height_gene_1 }
