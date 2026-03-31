@@ -1,5 +1,14 @@
 ﻿set_hips_gene_1_effect = {
 	random_list = {
+		900 = {
+			trigger = { is_ek2_fantasy_body_profile_culture_trigger = yes }
+			set_ek2_lore_body_profile_effect = yes
+			set_variable = { name = hips_gene_1 value = var:ek2_lore_hips_target }
+			change_variable = {
+				name = hips_gene_1
+				add = { fixed_range = { min = -8 max = 8 } }
+			}
+		}
 		2 = { 
 			trigger = {
 				Or = {
@@ -176,6 +185,15 @@
 				
 set_hips_gene_2_effect = {
 	random_list = {
+		900 = {
+			trigger = { is_ek2_fantasy_body_profile_culture_trigger = yes }
+			set_ek2_lore_body_profile_effect = yes
+			set_variable = { name = hips_gene_2 value = var:ek2_lore_hips_target }
+			change_variable = {
+				name = hips_gene_2
+				add = { fixed_range = { min = -8 max = 8 } }
+			}
+		}
 		2 = { 
 			trigger = {
 				Or = {
