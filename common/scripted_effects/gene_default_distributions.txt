@@ -478,7 +478,10 @@ set_ek2_lore_body_profile_effect = {
 set_height_gene_1_effect = {
 	random_list = {
 		900 = {
-			trigger = { is_ek2_fantasy_height_culture_trigger = yes }
+			trigger = {
+				is_ek2_fantasy_height_culture_trigger = yes
+				has_height_trait = no
+			}
 			set_ek2_lore_height_value_effect = yes
 			set_variable = { name = height_gene_1 value = var:ek2_lore_height_target }
 			change_variable = {
@@ -846,7 +849,10 @@ set_height_gene_1_effect = {
 set_height_gene_2_effect = {
 	random_list = {
 		900 = {
-			trigger = { is_ek2_fantasy_height_culture_trigger = yes }
+			trigger = {
+				is_ek2_fantasy_height_culture_trigger = yes
+				has_height_trait = no
+			}
 			set_ek2_lore_height_value_effect = yes
 			set_variable = { name = height_gene_2 value = var:ek2_lore_height_target }
 			change_variable = {
