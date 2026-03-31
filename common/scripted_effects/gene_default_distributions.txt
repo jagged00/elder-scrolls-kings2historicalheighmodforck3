@@ -387,65 +387,6 @@ set_breast_size_gene_2_effect = {
 	}
 }
 			
-set_ek2_lore_height_value_effect = {
-	if = { limit = { culture = dremora } set_variable = { name = ek2_lore_height_target value = 78 } }
-	else_if = { limit = { culture = alinor } set_variable = { name = ek2_lore_height_target value = 72 } }
-	else_if = { limit = { culture = auridon } set_variable = { name = ek2_lore_height_target value = 71 } }
-	else_if = { limit = { culture = balfiera } set_variable = { name = ek2_lore_height_target value = 70 } }
-	else_if = { limit = { culture = corelanya } set_variable = { name = ek2_lore_height_target value = 69 } }
-	else_if = { limit = { culture = ayleid } set_variable = { name = ek2_lore_height_target value = 70 } }
-	else_if = { limit = { culture = mathmeldi } set_variable = { name = ek2_lore_height_target value = 69 } }
-	else_if = { limit = { culture = barsaebic } set_variable = { name = ek2_lore_height_target value = 68 } }
-	else_if = { limit = { culture = dynari } set_variable = { name = ek2_lore_height_target value = 67 } }
-	else_if = { limit = { culture = morathi } set_variable = { name = ek2_lore_height_target value = 44 } }
-	else_if = { limit = { culture = altmeribosmer } set_variable = { name = ek2_lore_height_target value = 50 } }
-	else_if = { limit = { culture = cyrobosmer } set_variable = { name = ek2_lore_height_target value = 48 } }
-	else_if = { limit = { culture = arenthi } set_variable = { name = ek2_lore_height_target value = 46 } }
-	else_if = { limit = { culture = silvenari } set_variable = { name = ek2_lore_height_target value = 45 } }
-	else_if = { limit = { culture = etarani } set_variable = { name = ek2_lore_height_target value = 44 } }
-	else_if = { limit = { culture = gah_julan } set_variable = { name = ek2_lore_height_target value = 56 } }
-	else_if = { limit = { culture = armun_an } set_variable = { name = ek2_lore_height_target value = 56 } }
-	else_if = { limit = { culture = chuzei } set_variable = { name = ek2_lore_height_target value = 55 } }
-	else_if = { limit = { culture = chi_addun } set_variable = { name = ek2_lore_height_target value = 55 } }
-	else_if = { limit = { culture = marduhn_oad } set_variable = { name = ek2_lore_height_target value = 54 } }
-	else_if = { limit = { culture = ashlander } set_variable = { name = ek2_lore_height_target value = 57 } }
-	else_if = { limit = { culture = shinathi } set_variable = { name = ek2_lore_height_target value = 56 } }
-	else_if = { limit = { culture = kogo_isra } set_variable = { name = ek2_lore_height_target value = 55 } }
-	else_if = { limit = { culture = chimer } set_variable = { name = ek2_lore_height_target value = 60 } }
-	else_if = { limit = { culture = chimeriquey } set_variable = { name = ek2_lore_height_target value = 59 } }
-	else_if = { limit = { culture = cantemiric } set_variable = { name = ek2_lore_height_target value = 59 } }
-	else_if = { limit = { culture = mountain_orc } set_variable = { name = ek2_lore_height_target value = 64 } }
-	else_if = { limit = { culture = iron_orc } set_variable = { name = ek2_lore_height_target value = 65 } }
-	else_if = { limit = { culture = wood_orc } set_variable = { name = ek2_lore_height_target value = 62 } }
-	else_if = { limit = { culture = malahk_orc } set_variable = { name = ek2_lore_height_target value = 63 } }
-	else_if = { limit = { culture = dune_orc } set_variable = { name = ek2_lore_height_target value = 61 } }
-	else_if = { limit = { culture = hleel } set_variable = { name = ek2_lore_height_target value = 55 } }
-	else_if = { limit = { culture = naga } set_variable = { name = ek2_lore_height_target value = 60 } }
-	else_if = { limit = { culture = paatru } set_variable = { name = ek2_lore_height_target value = 57 } }
-	else_if = { limit = { culture = agaceph } set_variable = { name = ek2_lore_height_target value = 53 } }
-	else_if = { limit = { culture = sarpa } set_variable = { name = ek2_lore_height_target value = 56 } }
-	else_if = { limit = { culture = ojel } set_variable = { name = ek2_lore_height_target value = 54 } }
-	else_if = { limit = { culture = hapsleet } set_variable = { name = ek2_lore_height_target value = 55 } }
-	else_if = { limit = { culture = pellitinian } set_variable = { name = ek2_lore_height_target value = 53 } }
-	else_if = { limit = { culture = anequinan } set_variable = { name = ek2_lore_height_target value = 54 } }
-	else_if = { limit = { culture = baandari } set_variable = { name = ek2_lore_height_target value = 50 } }
-	else_if = { limit = { culture = malapiit } set_variable = { name = ek2_lore_height_target value = 52 } }
-	else_if = { limit = { culture = maormer } set_variable = { name = ek2_lore_height_target value = 67 } }
-	else_if = { limit = { culture = beyonder } set_variable = { name = ek2_lore_height_target value = 68 } }
-	else_if = { limit = { culture = falmer } set_variable = { name = ek2_lore_height_target value = 63 } }
-	else_if = { limit = { culture = falmer_betrayed } set_variable = { name = ek2_lore_height_target value = 40 } }
-	else_if = { limit = { culture = amz_vtharden } set_variable = { name = ek2_lore_height_target value = 47 } }
-	else_if = { limit = { culture = amz_vtholften } set_variable = { name = ek2_lore_height_target value = 46 } }
-	else_if = { limit = { culture = amz_kagren } set_variable = { name = ek2_lore_height_target value = 45 } }
-	else_if = { limit = { culture = goblin } set_variable = { name = ek2_lore_height_target value = 28 } }
-	else_if = { limit = { culture = riekling } set_variable = { name = ek2_lore_height_target value = 24 } }
-	else_if = { limit = { culture = riekr } set_variable = { name = ek2_lore_height_target value = 25 } }
-	else_if = { limit = { culture = imga } set_variable = { name = ek2_lore_height_target value = 69 } }
-	else_if = { limit = { culture = lilmothiit } set_variable = { name = ek2_lore_height_target value = 43 } }
-	else_if = { limit = { culture = tundrastrider } set_variable = { name = ek2_lore_height_target value = 120 } }
-	else = { set_variable = { name = ek2_lore_height_target value = 50 } }
-}
-
 set_ek2_lore_body_profile_effect = {
 	if = { limit = { culture = dremora } set_variable = { name = ek2_lore_breast_target value = 52 } set_variable = { name = ek2_lore_butt_target value = 48 } set_variable = { name = ek2_lore_hips_target value = 44 } set_variable = { name = ek2_lore_shoulders_target value = 72 } set_variable = { name = ek2_lore_waist_target value = 40 } }
 	else_if = { limit = { culture = alinor } set_variable = { name = ek2_lore_breast_target value = 44 } set_variable = { name = ek2_lore_butt_target value = 40 } set_variable = { name = ek2_lore_hips_target value = 40 } set_variable = { name = ek2_lore_shoulders_target value = 56 } set_variable = { name = ek2_lore_waist_target value = 38 } }
@@ -477,18 +418,6 @@ set_ek2_lore_body_profile_effect = {
 
 set_height_gene_1_effect = {
 	random_list = {
-		900 = {
-			trigger = {
-				is_ek2_fantasy_height_culture_trigger = yes
-				has_height_trait = no
-			}
-			set_ek2_lore_height_value_effect = yes
-			set_variable = { name = height_gene_1 value = var:ek2_lore_height_target }
-			change_variable = {
-				name = height_gene_1
-				add = { fixed_range = { min = -8 max = 8 } }
-			}
-		}
 		1 = {
 			trigger = {
 				has_trait = tall_5
@@ -848,18 +777,6 @@ set_height_gene_1_effect = {
 				
 set_height_gene_2_effect = {
 	random_list = {
-		900 = {
-			trigger = {
-				is_ek2_fantasy_height_culture_trigger = yes
-				has_height_trait = no
-			}
-			set_ek2_lore_height_value_effect = yes
-			set_variable = { name = height_gene_2 value = var:ek2_lore_height_target }
-			change_variable = {
-				name = height_gene_2
-				add = { fixed_range = { min = -8 max = 8 } }
-			}
-		}
 		1 = {
 			trigger = {
 				has_trait = tall_5
