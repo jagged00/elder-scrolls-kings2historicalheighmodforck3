@@ -69,3 +69,108 @@ puberty_aging_value = {
 	}
 	max = 1
 }
+
+ek2_visual_aging_start_age = {
+	value = 25
+	if = { limit = { culture = dremora } value = 180 }
+	else_if = { limit = { culture = alinor } value = 120 }
+	else_if = { limit = { culture = auridon } value = 120 }
+	else_if = { limit = { culture = balfiera } value = 120 }
+	else_if = { limit = { culture = corelanya } value = 120 }
+	else_if = { limit = { culture = ayleid } value = 120 }
+	else_if = { limit = { culture = mathmeldi } value = 120 }
+	else_if = { limit = { culture = barsaebic } value = 120 }
+	else_if = { limit = { culture = dynari } value = 120 }
+	else_if = { limit = { culture = falmer } value = 90 }
+	else_if = { limit = { culture = falmer_betrayed } value = 28 }
+	else_if = { limit = { culture = gah_julan } value = 85 }
+	else_if = { limit = { culture = armun_an } value = 85 }
+	else_if = { limit = { culture = chuzei } value = 85 }
+	else_if = { limit = { culture = chi_addun } value = 85 }
+	else_if = { limit = { culture = marduhn_oad } value = 85 }
+	else_if = { limit = { culture = ashlander } value = 85 }
+	else_if = { limit = { culture = shinathi } value = 85 }
+	else_if = { limit = { culture = kogo_isra } value = 85 }
+	else_if = { limit = { culture = mountain_orc } value = 35 }
+	else_if = { limit = { culture = iron_orc } value = 35 }
+	else_if = { limit = { culture = wood_orc } value = 35 }
+	else_if = { limit = { culture = malahk_orc } value = 35 }
+	else_if = { limit = { culture = dune_orc } value = 35 }
+	else_if = { limit = { culture = hleel } value = 32 }
+	else_if = { limit = { culture = naga } value = 34 }
+	else_if = { limit = { culture = paatru } value = 33 }
+	else_if = { limit = { culture = agaceph } value = 31 }
+	else_if = { limit = { culture = sarpa } value = 33 }
+	else_if = { limit = { culture = ojel } value = 32 }
+	else_if = { limit = { culture = hapsleet } value = 32 }
+	else_if = { limit = { culture = pellitinian } value = 30 }
+	else_if = { limit = { culture = anequinan } value = 30 }
+	else_if = { limit = { culture = baandari } value = 30 }
+	else_if = { limit = { culture = malapiit } value = 30 }
+	else_if = { limit = { culture = goblin } value = 18 }
+	else_if = { limit = { culture = riekling } value = 16 }
+	else_if = { limit = { culture = riekr } value = 16 }
+	else_if = { limit = { culture = amz_vtharden } value = 60 }
+	else_if = { limit = { culture = amz_vtholften } value = 60 }
+	else_if = { limit = { culture = amz_kagren } value = 60 }
+	else_if = { limit = { culture = maormer } value = 100 }
+	else_if = { limit = { culture = beyonder } value = 100 }
+	else_if = { limit = { culture = imga } value = 40 }
+	else_if = { limit = { culture = lilmothiit } value = 28 }
+	else_if = { limit = { culture = tundrastrider } value = 60 }
+}
+
+ek2_visual_aging_yearly_rate = {
+	value = 0.02
+	if = { limit = { culture = dremora } value = 0.004 }
+	else_if = { limit = { culture = alinor } value = 0.0075 }
+	else_if = { limit = { culture = auridon } value = 0.0075 }
+	else_if = { limit = { culture = balfiera } value = 0.0075 }
+	else_if = { limit = { culture = corelanya } value = 0.0075 }
+	else_if = { limit = { culture = ayleid } value = 0.0075 }
+	else_if = { limit = { culture = mathmeldi } value = 0.0075 }
+	else_if = { limit = { culture = barsaebic } value = 0.0075 }
+	else_if = { limit = { culture = dynari } value = 0.0075 }
+	else_if = { limit = { culture = falmer } value = 0.01 }
+	else_if = { limit = { culture = falmer_betrayed } value = 0.02 }
+	else_if = { limit = { culture = gah_julan } value = 0.01 }
+	else_if = { limit = { culture = armun_an } value = 0.01 }
+	else_if = { limit = { culture = chuzei } value = 0.01 }
+	else_if = { limit = { culture = chi_addun } value = 0.01 }
+	else_if = { limit = { culture = marduhn_oad } value = 0.01 }
+	else_if = { limit = { culture = ashlander } value = 0.01 }
+	else_if = { limit = { culture = shinathi } value = 0.01 }
+	else_if = { limit = { culture = kogo_isra } value = 0.01 }
+	else_if = { limit = { culture = mountain_orc } value = 0.0225 }
+	else_if = { limit = { culture = iron_orc } value = 0.0225 }
+	else_if = { limit = { culture = wood_orc } value = 0.0225 }
+	else_if = { limit = { culture = malahk_orc } value = 0.0225 }
+	else_if = { limit = { culture = dune_orc } value = 0.0225 }
+	else_if = { limit = { culture = hleel } value = 0.02 }
+	else_if = { limit = { culture = naga } value = 0.019 }
+	else_if = { limit = { culture = paatru } value = 0.0195 }
+	else_if = { limit = { culture = agaceph } value = 0.021 }
+	else_if = { limit = { culture = sarpa } value = 0.0195 }
+	else_if = { limit = { culture = ojel } value = 0.02 }
+	else_if = { limit = { culture = hapsleet } value = 0.02 }
+	else_if = { limit = { culture = pellitinian } value = 0.021 }
+	else_if = { limit = { culture = anequinan } value = 0.021 }
+	else_if = { limit = { culture = baandari } value = 0.021 }
+	else_if = { limit = { culture = malapiit } value = 0.021 }
+	else_if = { limit = { culture = goblin } value = 0.03 }
+	else_if = { limit = { culture = riekling } value = 0.032 }
+	else_if = { limit = { culture = riekr } value = 0.032 }
+	else_if = { limit = { culture = amz_vtharden } value = 0.014 }
+	else_if = { limit = { culture = amz_vtholften } value = 0.014 }
+	else_if = { limit = { culture = amz_kagren } value = 0.014 }
+	else_if = { limit = { culture = maormer } value = 0.0085 }
+	else_if = { limit = { culture = beyonder } value = 0.0085 }
+	else_if = { limit = { culture = imga } value = 0.018 }
+	else_if = { limit = { culture = lilmothiit } value = 0.022 }
+	else_if = { limit = { culture = tundrastrider } value = 0.012 }
+}
+
+ek2_visual_aging_beauty_start_age = {
+	value = ek2_visual_aging_start_age
+	add = 10
+}

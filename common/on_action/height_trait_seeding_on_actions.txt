@@ -1,13 +1,77 @@
 ﻿
 	
-on_seed_height_trait = {
+on_seed_lore_height_trait = {
 	trigger = {
 		has_height_trait = no
 	}
 	effect = {
+		if = {
+			limit = { culture = dremora }
+			random_list = { 70 = { add_trait = tall_4 } 30 = { add_trait = tall_3 } }
+		}
+		else_if = { limit = { culture = alinor } random_list = { 45 = { add_trait = tall_4 } 35 = { add_trait = tall_3 } 12 = { add_trait = tall_2 } 8 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = auridon } random_list = { 45 = { add_trait = tall_4 } 35 = { add_trait = tall_3 } 12 = { add_trait = tall_2 } 8 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = balfiera } random_list = { 40 = { add_trait = tall_4 } 35 = { add_trait = tall_3 } 15 = { add_trait = tall_2 } 10 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = corelanya } random_list = { 40 = { add_trait = tall_4 } 35 = { add_trait = tall_3 } 15 = { add_trait = tall_2 } 10 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = ayleid } random_list = { 38 = { add_trait = tall_4 } 37 = { add_trait = tall_3 } 15 = { add_trait = tall_2 } 10 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = mathmeldi } random_list = { 38 = { add_trait = tall_4 } 37 = { add_trait = tall_3 } 15 = { add_trait = tall_2 } 10 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = barsaebic } random_list = { 38 = { add_trait = tall_4 } 37 = { add_trait = tall_3 } 15 = { add_trait = tall_2 } 10 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = dynari } random_list = { 38 = { add_trait = tall_4 } 37 = { add_trait = tall_3 } 15 = { add_trait = tall_2 } 10 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = morathi } random_list = { 65 = { add_trait = short_1 } 25 = { add_trait = average_height } 10 = { add_trait = short_2 } } }
+		else_if = { limit = { culture = altmeribosmer } random_list = { 60 = { add_trait = average_height } 25 = { add_trait = short_1 } 15 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = cyrobosmer } random_list = { 60 = { add_trait = average_height } 25 = { add_trait = short_1 } 15 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = arenthi } random_list = { 60 = { add_trait = short_1 } 30 = { add_trait = average_height } 10 = { add_trait = short_2 } } }
+		else_if = { limit = { culture = silvenari } random_list = { 60 = { add_trait = short_1 } 30 = { add_trait = average_height } 10 = { add_trait = short_2 } } }
+		else_if = { limit = { culture = etarani } random_list = { 60 = { add_trait = short_1 } 30 = { add_trait = average_height } 10 = { add_trait = short_2 } } }
+		else_if = { limit = { culture = gah_julan } random_list = { 60 = { add_trait = tall_1 } 30 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = armun_an } random_list = { 60 = { add_trait = tall_1 } 30 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = chuzei } random_list = { 60 = { add_trait = tall_1 } 30 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = chi_addun } random_list = { 60 = { add_trait = tall_1 } 30 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = marduhn_oad } random_list = { 60 = { add_trait = tall_1 } 30 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = ashlander } random_list = { 55 = { add_trait = tall_1 } 30 = { add_trait = average_height } 15 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = shinathi } random_list = { 60 = { add_trait = tall_1 } 30 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = kogo_isra } random_list = { 60 = { add_trait = tall_1 } 30 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = mountain_orc } random_list = { 60 = { add_trait = tall_2 } 30 = { add_trait = tall_1 } 10 = { add_trait = tall_3 } } }
+		else_if = { limit = { culture = iron_orc } random_list = { 60 = { add_trait = tall_2 } 30 = { add_trait = tall_1 } 10 = { add_trait = tall_3 } } }
+		else_if = { limit = { culture = wood_orc } random_list = { 55 = { add_trait = tall_1 } 30 = { add_trait = tall_2 } 15 = { add_trait = average_height } } }
+		else_if = { limit = { culture = malahk_orc } random_list = { 60 = { add_trait = tall_2 } 30 = { add_trait = tall_1 } 10 = { add_trait = tall_3 } } }
+		else_if = { limit = { culture = dune_orc } random_list = { 55 = { add_trait = tall_1 } 30 = { add_trait = tall_2 } 15 = { add_trait = average_height } } }
+		else_if = { limit = { culture = hleel } random_list = { 55 = { add_trait = tall_1 } 35 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = naga } random_list = { 60 = { add_trait = tall_1 } 30 = { add_trait = tall_2 } 10 = { add_trait = average_height } } }
+		else_if = { limit = { culture = paatru } random_list = { 55 = { add_trait = tall_1 } 35 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = agaceph } random_list = { 60 = { add_trait = average_height } 25 = { add_trait = tall_1 } 15 = { add_trait = short_1 } } }
+		else_if = { limit = { culture = sarpa } random_list = { 55 = { add_trait = tall_1 } 35 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = ojel } random_list = { 60 = { add_trait = average_height } 25 = { add_trait = tall_1 } 15 = { add_trait = short_1 } } }
+		else_if = { limit = { culture = hapsleet } random_list = { 55 = { add_trait = tall_1 } 35 = { add_trait = average_height } 10 = { add_trait = tall_2 } } }
+		else_if = { limit = { culture = pellitinian } random_list = { 60 = { add_trait = average_height } 25 = { add_trait = tall_1 } 15 = { add_trait = short_1 } } }
+		else_if = { limit = { culture = anequinan } random_list = { 60 = { add_trait = average_height } 25 = { add_trait = tall_1 } 15 = { add_trait = short_1 } } }
+		else_if = { limit = { culture = baandari } random_list = { 60 = { add_trait = short_1 } 30 = { add_trait = average_height } 10 = { add_trait = short_2 } } }
+		else_if = { limit = { culture = malapiit } random_list = { 60 = { add_trait = average_height } 25 = { add_trait = short_1 } 15 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = maormer } random_list = { 42 = { add_trait = tall_4 } 33 = { add_trait = tall_3 } 15 = { add_trait = tall_2 } 10 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = beyonder } random_list = { 42 = { add_trait = tall_4 } 33 = { add_trait = tall_3 } 15 = { add_trait = tall_2 } 10 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = falmer } random_list = { 60 = { add_trait = tall_1 } 30 = { add_trait = tall_2 } 10 = { add_trait = average_height } } }
+		else_if = { limit = { culture = falmer_betrayed } random_list = { 60 = { add_trait = short_1 } 30 = { add_trait = short_2 } 10 = { add_trait = average_height } } }
+		else_if = { limit = { culture = amz_vtharden } random_list = { 60 = { add_trait = short_1 } 25 = { add_trait = average_height } 15 = { add_trait = short_2 } } }
+		else_if = { limit = { culture = amz_vtholften } random_list = { 60 = { add_trait = short_1 } 25 = { add_trait = average_height } 15 = { add_trait = short_2 } } }
+		else_if = { limit = { culture = amz_kagren } random_list = { 60 = { add_trait = short_1 } 25 = { add_trait = average_height } 15 = { add_trait = short_2 } } }
+		else_if = { limit = { culture = goblin } random_list = { 65 = { add_trait = short_4 } 25 = { add_trait = short_3 } 10 = { add_trait = short_5 } } }
+		else_if = { limit = { culture = riekling } random_list = { 65 = { add_trait = short_4 } 25 = { add_trait = short_5 } 10 = { add_trait = short_3 } } }
+		else_if = { limit = { culture = riekr } random_list = { 65 = { add_trait = short_4 } 25 = { add_trait = short_5 } 10 = { add_trait = short_3 } } }
+		else_if = { limit = { culture = imga } random_list = { 60 = { add_trait = tall_2 } 30 = { add_trait = tall_3 } 10 = { add_trait = tall_1 } } }
+		else_if = { limit = { culture = lilmothiit } random_list = { 60 = { add_trait = short_1 } 25 = { add_trait = average_height } 15 = { add_trait = short_2 } } }
+		else_if = { limit = { culture = tundrastrider } random_list = { 65 = { add_trait = tall_5 } 35 = { add_trait = tall_4 } } }
+	}
+}
+
+on_seed_height_trait = {
+	trigger = {
+		has_variable = height_genetic
+		has_variable = height_growth
+	}
+	effect = {
 		trigger_event = { 
 			on_action = on_height_trait
-			days = 5
+			days = 1
 		}
 	}
 }
