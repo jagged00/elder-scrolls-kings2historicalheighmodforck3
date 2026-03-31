@@ -1,0 +1,55 @@
+﻿l_korean:
+
+ trait_butt: "하체 윤곽"
+
+ trait_small_butt_narrow_hips: "뾰족 하체 윤곽"
+ trait_small_butt_narrow_hips_desc: "이 캐릭터는 뼈만 남은 좁은 하체 윤곽을 가지고 있어, 마치 나무 장작 위에 앉아도 편할 것 같습니다."
+ trait_small_butt_narrow_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 뼈만 남은 좁은 하체 윤곽을 가지고 있어, 마치 나무 장작 위에 앉아도 편할 것 같습니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_small_butt_medium_hips: "평평한 하체 윤곽"
+ trait_small_butt_medium_hips_desc: "이 캐릭터는 하체 윤곽이 있는지조차 분간하기 어렵습니다."
+ trait_small_butt_medium_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 하체 윤곽이 있는지조차 분간하기 어렵습니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_small_butt_wide_hips: "팬케이크 하체 윤곽"
+ trait_small_butt_wide_hips_desc: "이 캐릭터의 하체 윤곽은 팬케이크입니다. 그냥... 팬케이크에요."
+ trait_small_butt_wide_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 하체 윤곽은 팬케이크입니다. 그냥... 팬케이크에요.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_medium_butt_narrow_hips: "가느다란 골반"
+ trait_medium_butt_narrow_hips_desc: "이 캐릭터는 허리띠를 꽉 졸라맵니다. 참, 고생이 많네요."
+ trait_medium_butt_narrow_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 허리띠를 꽉 졸라맵니다. 참, 고생이 많네요.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_medium_butt_medium_hips: "평범한 뒤태"
+ trait_medium_butt_medium_hips_desc: "이 캐릭터의 뒤태는 평범한 편입니다."
+ trait_medium_butt_medium_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 뒤태는 평범한 편입니다..\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_medium_butt_wide_hips: "곡선미"
+ trait_medium_butt_wide_hips_desc: "이 캐릭터의 몸선은 직선으로 떨어지길 피하는 듯 보입니다."
+ trait_medium_butt_wide_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 몸선은 직선으로 떨어지길 피하는 듯 보입니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_big_butt_narrow_hips: "빵빵한 하체 윤곽"
+ trait_big_butt_narrow_hips_desc: "이 캐릭터는 육감적인, 아니... 개성 있는 매력으로 사람들을 사로잡습니다."
+ trait_big_butt_narrow_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 육감적인, 아니... 개성 있는 매력으로 사람들을 사로잡습니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_big_butt_medium_hips: "근육질 하체 윤곽"
+ trait_big_butt_medium_hips_desc: "이 캐릭터가 걸어 들어오면, 많은 기사들의 시선을 단번에 사로잡을 것입니다."
+ trait_big_butt_medium_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]가 걸어 들어오면, 많은 기사들의 시선을 단번에 사로잡을 것입니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_big_butt_wide_hips_1: "풍만한 하체 윤곽"
+ trait_big_butt_wide_hips_1_desc: "이 캐릭터의 하체 윤곽을 보고 있으면 세상이 흔들리는 기분입니다."
+ trait_big_butt_wide_hips_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 하체 윤곽을 보고 있으면 세상이 흔들리는 기분입니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_big_butt_wide_hips_2: "예쁜 하체 윤곽"
+ trait_big_butt_wide_hips_2_desc: "이 캐릭터는 예쁜 하체 윤곽을 지닌 비너스의 화신입니다."
+ trait_big_butt_wide_hips_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 예쁜 하체 윤곽을 지닌 비너스의 화신입니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_huge_hips: "비대한 하체 윤곽"
+ trait_huge_hips_desc: "이 캐릭터는 비대한 하체 윤곽을 가졌습니다."
+ trait_huge_hips_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 비대한 하체 윤곽을 가졌습니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_huge_butt: "거대한 둔근"
+ trait_huge_butt_desc: "이 캐릭터의 하체 윤곽은 비정상적으로 큽니다."
+ trait_huge_butt_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 하체 윤곽은 비정상적으로 큽니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"
+
+ trait_colossal_butt: "거상의 하체 윤곽"
+ trait_colossal_butt_desc: "로도스의 거상처럼, 이 캐릭터의 하체 윤곽은 그 크기에서 압도감을 줍니다."
+ trait_colossal_butt_character_desc: "로도스의 거상처럼 [ROOT.GetCharacter.GetFirstNameNoTooltip]의 하체 윤곽은 그 크기에서 압도감을 줍니다.\n하체 윤곽 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_butt_size')|0]\n골반 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_hips_size')|0]\n하체 근육 지수: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('cbo_lower_body_muscles_gui')|0]"

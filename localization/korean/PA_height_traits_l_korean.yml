@@ -1,0 +1,49 @@
+﻿l_korean:
+
+ trait_average_height: "평균 키"
+ trait_average_height_desc: "이 캐릭터의 키는 꽤 평범합니다."
+ trait_average_height_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 키는 꽤 평범합니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short: "단신"
+
+ trait_short_1: "짦은 키"
+ trait_short_1_desc: "이 캐릭터는 남들보다 조금 더 작은 키입니다."
+ trait_short_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 남들보다 조금 더 작은 키입니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short_2: "작은 키"
+ trait_short_2_desc: "이 캐릭터는 군중 속에서 시야 확보가 어렵습니다."
+ trait_short_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 군중 속에서 시야 확보가 어렵습니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short_3: "꼬맹이"
+ trait_short_3_desc: "이 캐릭터의 키는 비좁은 공간에 유용합니다."
+ trait_short_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 키는 비좁은 공간에 유용합니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short_4: "미니어처"
+ trait_short_4_desc: "이 캐릭터는 종종 눈에 띄지 않습니다."
+ trait_short_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 종종 눈에 띄지 않습니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_short_5: "쪼꼬미"
+ trait_short_5_desc: "이 캐릭터의 비율은 매우 작습니다."
+ trait_short_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 비율은 매우 작습니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall: "장신"
+
+ trait_tall_1: "큰 키"
+ trait_tall_1_desc: "이 캐릭터는 남들보다 키가 큽니다."
+ trait_tall_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 남들보다 키가 큽니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall_2: "우뚝 솟은 키"
+ trait_tall_2_desc: "이 캐릭터는 대부분의 사람들을 내려다봅니다."
+ trait_tall_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 대부분의 사람들을 내려다봅니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall_3: "고지대의 키"
+ trait_tall_3_desc: "이 캐릭터는 머리가 구름 속에 있습니다."
+ trait_tall_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 머리가 구름 속에 있습니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall_4: "거구"
+ trait_tall_4_desc: "이 캐릭터의 키는 꽤 특출납니다."
+ trait_tall_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 키는 꽤 특출납니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"
+
+ trait_tall_5: "거인"
+ trait_tall_5_desc: "이 캐릭터의 비율은 고대 신화에서나 볼 수 있을 정도입니다."
+ trait_tall_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 비율은 고대 신화에서나 볼 수 있을 정도입니다.\n신장: [Character.Custom('GetHeight')] / [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('metric_height')|0] cm / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_height')|0]"

@@ -1,0 +1,53 @@
+﻿l_korean:
+ trait_tits_average: "적당한 가슴"
+ trait_tits_average_immersive: "젖가슴"
+ trait_tits_average_desc: "이 캐릭터는 적당한 젖가슴을 가졌습니다."
+ trait_tits_average_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 젖가슴을 가졌습니다.\n유방 크기: [Character.Custom('GetBreastBandSize')] [Character.Custom('GetBreastSize')] / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_breast_size')|0]\n지방에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_fat')|0]\n임신에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_lactation')|0]"
+
+ trait_tits_small: "작은 가슴"
+ trait_tits_small_good: "$trait_tits_small$"
+ trait_tits_small_bad: "$trait_tits_small$"
+
+ trait_tits_small_1: "작은 가슴"
+ trait_tits_small_1_immersive: "쁘띠"
+ trait_tits_small_1_desc: "이 캐릭터는 다른 캐릭터보다 가슴이 작습니다."
+ trait_tits_small_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has a smaller bust than most.\n유방 크기: [Character.Custom('GetBreastBandSize')] [Character.Custom('GetBreastSize')] / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_breast_size')|0]\n지방에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_fat')|0]\n임신에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_lactation')|0]"
+
+ trait_tits_small_2: "조그만 가슴"
+ trait_tits_small_2_immersive: "꽃봉오리"
+ trait_tits_small_2_desc: "이 캐릭터는 거의 눈에 띄지 않는 소녀 같은 가슴을 가지고 있습니다."
+ trait_tits_small_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] has girlish breasts that are hardly noticeable.\n유방 크기: [Character.Custom('GetBreastBandSize')] [Character.Custom('GetBreastSize')] / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_breast_size')|0]\n지방에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_fat')|0]\n임신에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_lactation')|0]"
+
+ trait_tits_small_3: "납작 가슴"
+ trait_tits_small_3_immersive: "평평한 흉부"
+ trait_tits_small_3_desc: "이 캐릭터의 가슴은 판자처럼 납작합니다."
+ trait_tits_small_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s bosom is as flat as a board.\n유방 크기: [Character.Custom('GetBreastBandSize')] [Character.Custom('GetBreastSize')] / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_breast_size')|0]\n지방에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_fat')|0]\n임신에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_lactation')|0]"
+
+ trait_tits_big: "큰 가슴"
+ trait_tits_big_good: "$trait_tits_big$"
+ trait_tits_big_bad: "$trait_tits_big$"
+
+ trait_tits_big_1: "큰 가슴"
+ trait_tits_big_1_immersive: "글래머"
+ trait_tits_big_1_desc: "이 캐릭터는 풍만한 가슴을 가졌습니다."
+ trait_tits_big_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 풍만한 가슴을 가졌습니다.\n유방 크기: [Character.Custom('GetBreastBandSize')] [Character.Custom('GetBreastSize')] / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_breast_size')|0]\n지방에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_fat')|0]\n임신에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_lactation')|0]"
+
+ trait_tits_big_2: "커다란 가슴"
+ trait_tits_big_2_immersive: "풍만함"
+ trait_tits_big_2_desc: "이 캐릭터는 커다란... 넓은 땅을 가지고 있습니다."
+ trait_tits_big_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 거대한... 넓은 땅을 가지고 있습니다\n유방 크기: [Character.Custom('GetBreastBandSize')] [Character.Custom('GetBreastSize')] / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_breast_size')|0]\n지방에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_fat')|0]\n임신에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_lactation')|0]"
+
+ trait_tits_big_3: "거대 가슴"
+ trait_tits_big_3_immersive: "거유"
+ trait_tits_big_3_desc: "이 캐릭터의 거대한 가슴은 전설로 떠돌 정도입니다."
+ trait_tits_big_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 거대한 가슴은 전설로 떠돌 정도입니다.\n유방 크기: [Character.Custom('GetBreastBandSize')] [Character.Custom('GetBreastSize')] / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_breast_size')|0]\n지방에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_fat')|0]\n임신에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_lactation')|0]"
+
+ trait_tits_big_4: "초거대 가슴"
+ trait_tits_big_4_immersive: "풍만함"
+ trait_tits_big_4_desc: "이 캐릭터가 지나갈 때면, 대게 여인들은 그녀가 어떤 시술을 받았을지 떠들어 대다가 문득 그것이 무의미하다는 것을 깨닫고, 스스로의 존재에 대한 의문을 갖기 시작합니다."
+ trait_tits_big_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](이)가 지나갈 때면, 대게 여인들은 그녀가 어떤 시술을 받았을지 떠들어 대다가 문득 그것이 무의미하다는 것을 깨닫고, 스스로의 존재에 대한 의문을 갖기 시작합니다.\n유방 크기: [Character.Custom('GetBreastBandSize')] [Character.Custom('GetBreastSize')] / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_breast_size')|0]\n지방에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_fat')|0]\n임신에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_lactation')|0]"
+
+ trait_tits_big_5: "괴물 가슴"
+ trait_tits_big_5_immersive: "전설적 흉부"
+ trait_tits_big_5_desc: "이 캐릭터는 인간의 한계를 넘어서, 이제 매우 두드러진 체형입니다."
+ trait_tits_big_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 인간의 한계를 넘어서, 이제 매우 두드러진 체형입니다.\n유방 크기: [Character.Custom('GetBreastBandSize')] [Character.Custom('GetBreastSize')] / 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_breast_size')|0]\n지방에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_fat')|0]\n임신에 의한 유방 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('breast_size_from_lactation')|0]"

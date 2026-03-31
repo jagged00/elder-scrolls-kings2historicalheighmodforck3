@@ -1,0 +1,40 @@
+﻿l_korean:
+
+ trait_average_muscular: "평범함"
+ trait_average_muscular_desc: "이 캐릭터는 근육이 선명하지 않습니다."
+ trait_average_muscular_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 근육이 선명하지 않습니다.\n근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\n팔 근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\n어깨 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_muscular: "근육질"
+
+ trait_muscular_1: "건장함"
+ trait_muscular_1_desc: "이 캐릭터는 비교적 근육질입니다."
+ trait_muscular_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 는 비교적 근육질입니다.\n근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\n팔 근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\n어깨 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_muscular_2: "우람함"
+ trait_muscular_2_desc: "이 캐릭터의 근육은 매우 인상적입니다."
+ trait_muscular_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 근육은 매우 인상적입니다.\n근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\n팔 근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\n어깨 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_muscular_3: "거대함"
+ trait_muscular_3_desc: "이 캐릭터는 강력한 힘을 자랑합니다."
+ trait_muscular_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 강력한 힘을 자랑합니다.\n근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\n팔 근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\n어깨 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_skinny_arms: "마른 팔"
+
+ trait_skinny_arms_1: "가냘픔"
+ trait_skinny_arms_1_desc: "이 캐릭터는 가냘픈 팔을 가지고 있습니다."
+ trait_skinny_arms_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 가냘픈 팔을 가지고 있습니다.\n근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\n팔 근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\n어깨 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_skinny_arms_2: "앙상함"
+ trait_skinny_arms_2_desc: "이 캐릭터는 뼈와 피부만 남은 팔을 가지고 있습니다."
+ trait_skinny_arms_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 뼈와 피부만 남은 팔을 가지고 있습니다.\n근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\n팔 근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\n어깨 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_fat_arms: "지방질"
+
+ trait_fat_arms_1: "물렁함"
+ trait_fat_arms_1_desc: "이 캐릭터의 몸은 부드럽고 물렁한 느낌입니다."
+ trait_fat_arms_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 몸은 부드럽고 물렁한 느낌입니다.\n근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\n팔 근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\n어깨 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 
+ trait_fat_arms_2: "축 처짐"
+ trait_fat_arms_2_desc: "근육이 있더라도, 두꺼운 지방층에 가려져 있습니다."
+ trait_fat_arms_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](이)가 근육이 있더라도, 두꺼운 지방층에 가려져 있습니다.\n근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_muscle')|0]\n팔 근육 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('visual_arm_muscle')|0]\n어깨 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_shoulders')|0]"
+ 

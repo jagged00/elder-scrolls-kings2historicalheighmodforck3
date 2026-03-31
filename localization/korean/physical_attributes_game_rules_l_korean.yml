@@ -1,0 +1,7 @@
+﻿l_korean:
+ rule_measurement_units: "측정 단위"
+ setting_us_custom_units: "미국 관습 단위"
+ setting_us_custom_units_desc: "미국에서 일반적으로 사용되는 측정 시스템."
+ setting_metric_units: "미터법 단위"
+ setting_metric_units_desc: "미얀마, 미국, 라이베리아를 제외한 전 세계에서 일반적으로 사용되는 측정 시스템."
+ 

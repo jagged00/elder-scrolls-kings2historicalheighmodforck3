@@ -1,0 +1,70 @@
+﻿l_korean:
+
+ trait_average_weight: "평균 체중"
+ trait_average_weight_desc: "이 캐릭터는 건강한 체중을 유지하고 있습니다."
+ trait_average_weight_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 건강한 체중을 유지하고 있습니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_pregnant_stomach: "임신 배"
+
+ trait_pregnant_stomach_1: "임신 초기"
+ trait_pregnant_stomach_1_desc: "이 캐릭터는 임신 초기 단계에 있습니다."
+ trait_pregnant_stomach_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 임신 초기 단계에 있습니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_pregnant_stomach_2: "임신 후기"
+ trait_pregnant_stomach_2_desc: "이 캐릭터는 임신 후기 단계에 있습니다."
+ trait_pregnant_stomach_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 임신 후기 단계에 있습니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_pregnant_stomach_3: "만삭"
+ trait_pregnant_stomach_3_desc: "이 캐릭터는 만삭이며, 어쩌면 쌍둥이를 임신했을 수도 있겠네요."
+ trait_pregnant_stomach_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 만삭이며, 어쩌면 쌍둥이를 임신했을 수도 있겠네요.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_abs: "복근"
+
+ trait_abs_1: "탄탄한 복근"
+ trait_abs_1_desc: "이 캐릭터는 근육이 살짝 도드라져 보입니다."
+ trait_abs_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 근육이 살짝 도드라져 보입니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+ 
+ trait_abs_2: "조각된 복근"
+ trait_abs_2_desc: "이 캐릭터의 몸은 마치 돌을 깎아 만든 것 같습니다."
+ trait_abs_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 몸은 마치 돌을 깎아 만든 것 같습니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_abs_3: "갈라진 복근"
+ trait_abs_3_desc: "이 캐릭터는 복근에 멋지게 부푼 알들이 도드라져 보입니다."
+ trait_abs_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 복근에 멋지게 부푼 알들이 도드라져 보입니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_skinny: "저체중"
+
+ trait_skinny_1: "날씬함"
+ trait_skinny_1_desc: "이 캐릭터는 날씬합니다."
+ trait_skinny_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 날씬합니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_skinny_2: "마름"
+ trait_skinny_2_desc: "이 캐릭터는 체지방이 적습니다."
+ trait_skinny_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 체지방이 적습니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_skinny_3: "영양 부족"
+ trait_skinny_3_desc: "이 캐릭터는 건강이 염려스러울 정도로 저체중입니다."
+ trait_skinny_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 건강이 염려스러울 정도로 저체중입니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_skinny_4: "홀쭉함"
+ trait_skinny_4_desc: "이 캐릭터는 뼈가 드러나 보일 정도로 말랐습니다."
+ trait_skinny_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 뼈가 드러나 보일 정도로 말랐습니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_fat: "과체중"
+
+ trait_fat_1: "통통함"
+ trait_fat_1_desc: "이 캐릭터는 몸이 부드러운 편입니다."
+ trait_fat_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 몸이 부드러운 편입니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_fat_2: "비만"
+ trait_fat_2_desc: "이 캐릭터의 몸은 마치 쿠션처럼 푹신합니다."
+ trait_fat_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]의 몸은 마치 쿠션처럼 푹신합니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_fat_3: "고도 비만"
+ trait_fat_3_desc: "이 캐릭터는 건강이 염려스러울 정도의 비만입니다."
+ trait_fat_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 건강이 염려스러울 정도의 비만입니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+
+ trait_fat_4: "병적 비만"
+ trait_fat_4_desc: "이 캐릭터는 몸이 지나치게 무거워 움직이기조차 어렵습니다."
+ trait_fat_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 몸이 지나치게 무거워 움직이기조차 어렵습니다.\n복부 크기 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_stomach_size')|0]\n상체 지방 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('upper_body_fat')|0]\n복근 게임 값: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('abs_value')|0]\n유전적 허리 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('actual_waist_size')|0]\n나잇살: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('aging_stomach_size')|0]\n임신 배 크기: [GuiScope.SetRoot( Character.MakeScope ).ScriptValue('pregnant_stomach_size')|0]"
+ 

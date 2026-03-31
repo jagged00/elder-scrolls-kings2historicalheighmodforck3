@@ -1,0 +1,24 @@
+﻿l_korean:
+ pregnancy_body.5001.t: "[breastfeeding_child_mother.GetNamePossessiveOrMy|U]의 젖이 나오지 않습니다."
+ pregnancy_body.5001.desc: "[breastfeeding_child_mother.GetFirstName|U]가 아무리 애써도 젖이 나오지 않습니다.\n우리는 [breastfeeding_child.GetFirstName|U]에게 염소 젖을 먹이기 시작했지만, 그것이 완벽한 대체품은 아닙니다."
+ pregnancy_body.5001.a: "수유모를 고용해야겠어."
+ pregnancy_body.5001.b: "다시는 그 얘기 하지 마."
+ pregnancy_body.5001.c: "나나 내 후손들에게 다시는 그 얘기 하지 마."
+ 
+ pregnancy_body.5002.t: "내 젖이 나오지 않습니다."
+ pregnancy_body.5002.desc: "아무리 애써도 내 젖이 나오지 않습니다. [breastfeeding_child.GetFirstName|U]를 볼 때마다 매우 비참한 기분을 느낍니다.\n우리는 [breastfeeding_child.GetFirstName|U]에게 염소 젖을 먹이기 시작했지만, 그것이 완벽한 대체품은 아닙니다."
+ pregnancy_body.5002.a: "수유모를 고용해야겠어."
+ pregnancy_body.5002.b: "다시는 그 얘기 하지 마."
+ pregnancy_body.5002.c: "나나 내 후손들에게 다시는 그 얘기 하지 마."
+
+ pregnancy_body.6001.t: "모유가 없습니다."
+ pregnancy_body.6001.desc: "[breastfeeding_child_mother.GetNamePossessiveOrMy|U]의 사망으로 [breastfeeding_child.GetFirstName|U]는 모유를 먹을 수 없게 되었습니다.\n우리는 [breastfeeding_child.GetFirstName|U]에게 염소 젖을 먹이기 시작했지만, 그것이 완벽한 대체품은 아닙니다."
+ pregnancy_body.6001.a: "수유모를 고용해야겠어."
+ pregnancy_body.6001.b: "다시는 그 얘기 하지 마."
+ pregnancy_body.6001.c: "나나 내 후손들에게 다시는 그 얘기 하지 마."
+ 
+ pregnancy_body.7001.t: "[breastfeeding_child.GetFirstName|U]에게 더 이상 모유를 줄 수 없습니다."
+ pregnancy_body.7001.desc: "[wet_nurse.GetFirstName|U]는 더 이상 [breastfeeding_child.GetFirstName|U]]의 수유모 역할을 할 수 없지만, [breastfeeding_child.GetSheHe|U]는 아직 고형식을 먹을 나이가 아닙니다.\n우리는 [breastfeeding_child.GetFirstName|U]에게 염소 젖을 먹이기 시작했지만, 그것이 완벽한 대체품은 아닙니다."
+ pregnancy_body.7001.a: "새로운 수유모를 고용해야겠어."
+ pregnancy_body.7001.b: "다시는 그 얘기 하지 마."
+ pregnancy_body.7001.c: "나나 내 후손들에게 다시는 그 얘기 하지 마."
