@@ -65,6 +65,7 @@ on_seed_lore_height_trait = {
 
 on_seed_height_trait = {
 	trigger = {
+		NOT = { is_ek2_fantasy_height_culture_trigger = yes }
 		has_variable = height_genetic
 		has_variable = height_growth
 	}
@@ -78,6 +79,7 @@ on_seed_height_trait = {
 
 on_height_trait = {
 		trigger = {
+			NOT = { is_ek2_fantasy_height_culture_trigger = yes }
 			has_variable = height_genetic
 			has_variable = height_growth
 		}
